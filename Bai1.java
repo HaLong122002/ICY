@@ -21,7 +21,7 @@ public class Bai1 {
         dem_soChan(arr);
         xuat_songuyento(arr);
         sapxep_tang(arr);
-        TimPhantu_Bangx(arr);
+        //TimPhantu_Bangx(arr);
     }
 
     public static void xuat(int arr[]) {
@@ -85,14 +85,5 @@ public class Bai1 {
         for (int i = 0; i < arr.length; i++)
             System.out.print(arr[i] + " ");
         System.out.println();
-    }
-    
-    public static void TimPhantu_Bangx(int arr[]) {
-        System.out.println("Nhập x: ");
-        int x = sc.nextInt();
-        System.out.print("Các phần tử bằng x: ");
-        for(int i = 0; i < arr.length; i++)
-            if(arr[i] == x)
-                System.out.print(i + " ");
     }
 }
